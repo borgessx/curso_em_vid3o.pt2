@@ -42,7 +42,7 @@ num.remove(6)#ele vai remover o número seis, só que tem dois números seis, el
 print(num,"\n")
 
 #novo exemplo, criar lista vazia.
-
+print("________5555555_____________________")
 val = []
 val.append(5) # alt + shift + seta pra cima
 val.append(9)
