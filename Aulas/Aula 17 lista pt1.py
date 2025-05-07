@@ -1,4 +1,3 @@
-
 """
 obs:
 
@@ -12,7 +11,6 @@ obs:
 *apagar elemento - del lanche - ex: del lanche[3]
 >outro, ex: lanche.pop(3), se lanche.pop() - ele vai eliminar o ultimo elemento
 >outro, ex: lanche.remove("bolacha"), se quiser eliminar pelo o que está escrito, utilizar remove. Se quiser pelo número da chave use del e pop.
-
 
 
 *função IN em lista
@@ -90,3 +88,11 @@ b[2]=8
 print(f"Lista A: {a}")
 print(f"Lista B: {b}")
 #no A continua 3 e no B vira 8
+
+print("\n\n\nFunção Enumerate")
+# ENUMERATE
+
+lista60= ["banana", "maçã", "pera"]
+
+for posição, fruta in enumerate(lista60): # primeira letra após o for é a posição "começa com 0", e a segunda letra é o que está na lista.
+    print(f"Indice: {posição}, Fruta: {fruta}")
