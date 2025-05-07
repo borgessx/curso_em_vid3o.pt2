@@ -1,12 +1,21 @@
 
 """
 obs:
+
 *para ser uma lista tem que utilizar chaves []
+
 *para adicionar elementos novos - append - ex: lanche.append("bolacha") 
+
 *para adicionar elementos em outras posições - insert - ex: lanche.insert("0,bolacha") estou adicionando uma bolacha na posição 0.
+
+
 *apagar elemento - del lanche - ex: del lanche[3]
 >outro, ex: lanche.pop(3), se lanche.pop() - ele vai eliminar o ultimo elemento
 >outro, ex: lanche.remove("bolacha"), se quiser eliminar pelo o que está escrito, utilizar remove. Se quiser pelo número da chave use del e pop.
+
+
+
+*função IN em lista
 *if bolacha in lanche:
     lanche.remove("bolacha")
 essa função vai procuraR A BOLACHA no lanche, se estiver, vai excluir.
