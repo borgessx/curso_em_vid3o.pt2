@@ -45,6 +45,23 @@ O titulo é Star wars
 O ano é 1977
 O diretor é George Lucas
 """
+#fazer soma
+#sum(nome do dicionario)
+
+# Exemplo 2: Usando enumerate para mostrar uma lista de tarefas
+"""
+tarefas = ["Estudar Python", "Fazer exercícios", "Ler um livro", "Beber água"]
+
+# O enumerate vai te dar o número da tarefa (índice) e o nome da tarefa
+for numero, tarefa in enumerate(tarefas, start=1):  # start=1 faz começar do 1 em vez de 0
+    print(f"Tarefa {numero}: {tarefa}")
+
+# Prática:
+# 1. Crie sua própria lista com tarefas do dia ou objetivos da semana.
+# 2. Use o enumerate com start=1 para numerar e exibir cada item da lista.
+"""
+
+
 
 # Parte Prática
 
@@ -55,7 +72,7 @@ print(f"O {pessoas['nome']} tem {pessoas['idade']} anos.")
 #INFORMAÇÃO IMPORTNATE
 # SE USAR ESSAS "", NOS COLCHETES VAI USAR ESSA ' ', E MESMO PARA SE USAR ESSA ' ', NOS COLCHETES VAI USAR ESSA ""
 print(pessoas.values()) # printa valores
-print(pessoas.keys()) # apenas cheves
+print(pessoas.keys()) # apenas chaves
 print(pessoas.items()) # printa tudo
 
 # Usando for
