@@ -1,3 +1,9 @@
+
+
+
+
+
+
 pessoa = dict()
 galera = list()
 mulheres = list()
