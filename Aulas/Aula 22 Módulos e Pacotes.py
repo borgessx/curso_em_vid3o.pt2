@@ -1,4 +1,4 @@
-
+import uteis
 
 
 num = int(input())
