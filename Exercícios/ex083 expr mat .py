@@ -12,4 +12,4 @@ for simb in exp: #ele vai mostrar os caracteres que estão na lista.
 if len(pilha) == 0: # como os ), vai eliminar esses (. Então a lista vai ficar vazia.
     print("Expressão válida!")
 else:
-    print("Expressão Inválida!")
+    print("Expressão Inválidaa!")
